@@ -2,6 +2,7 @@
 
 This directory contains the sources of a Book written with ReLaXed.
 
+<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/book/book_screenshot.png"/></p>
 
 Some highlights:
 
