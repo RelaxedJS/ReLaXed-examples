@@ -1,0 +1,86 @@
+include resume-mixins.pug
+
+#main
+  #title
+    h1 Jon Snow
+    .subtitle King in the North
+
+  .main-block
+    h2 #[i.fa.fa-suitcase] Experiences
+    
+    +item("Bastard in Residence", "Winterfell Castle", "North", "Sn 1")
+      :markdown-it
+        - Spent time with the rest of the family.
+        - Waited outside on formal occasions.
+        
+    +item("Lord Commander", "Night Watch", "Castle Black", "Sn 1", "Sn 6")
+      :markdown-it
+        - Defended a thousand-years tradition
+        - Liked the job so much, got stabbed and died and still came back the next SHanged all the rascals.
+        
+    +item("King in the North", "Winterfell Castle", "North", "Sn 6", "Sn 7")
+      :markdown-it
+        - Tightened links with the Mother of Dragons
+        - Wisely delegated important responsabilities to my sister.
+        
+  .main-block
+    h2 #[i.fa.fa-folder-open] Selected Projects 
+    
+    +item("Hardhome Rescue", "Some Workplace", null, "Sn 6")
+      :markdown-it
+        - Came there for the people, stayed for the white walkers. 
+        - Brought back a few hundred wildings.
+        
+    +item("Wilding Raid Rebutal", "Some other workplace", null, "Sn 5")
+      :markdown-it
+        - Fought back one of the largest wilding armies ever.
+        - Stepped up when the commander was down.
+        - Events led to my nomination as Lord Commander
+        
+    +item("White Walker Capture", "Some other workplace", null, "Sn 7")
+      :markdown-it
+        - Organized and led an elite squadron for the capture of a Walker.
+        - Outcome led to world peace in front of a common ennemy.
+  
+  .main-block.concise
+    h2 #[i.fa.fa-graduation-cap] Education
+    
+    +item("Martial Training", "Winterfell Castle", "North", "Sn 1")
+      .description Relationship of the number with the answer to life, the universe and everything
+      
+    +item("Squire Training", "Castle Black", "North",  "Sn 1", "Sn 3")
+      .description Made the bed, folded the towels, listened a lot.
+    
+    +item("School of Life")
+      .concise
+        :markdown-it
+          Generic dialectic life lessons including
+          - Do we ever *know* anything ?
+          - Is *this* a trick ?
+          - How to king
+
+#sidebar
+  #contact.side-block
+    h1 Contact Info
+    ul
+      li #[i.fa.fa-globe]  jonsnow.nth
+      li #[i.fa.fa-linkedin] linkedin.com/in/jon
+      li #[i.fa.fa-envelope] jonsnow@wintermail.com
+      li #[i.fa.fa-twitter] @kingInTheNorthBaby
+      li #[i.fa.fa-phone] 801.603.0431
+      
+  #skills.side-block
+    h1 Skills
+    ul
+      li Fighting
+      li Wall climbing
+    ul
+      li Rescuscitating
+      li Kinging
+  
+  //- This points to mnjul's original resume project
+  #disclaimer.side-block.
+      This résumé was wholly typeset with HTML/CSS — see code git.io/vVSYL
+
+style
+  include resume.scss

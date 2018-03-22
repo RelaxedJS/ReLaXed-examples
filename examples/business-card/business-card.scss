@@ -1,0 +1,30 @@
+@import 'https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css';
+@page {
+  size: 2in 3.5in;
+  -relaxed-page-width: 2in;
+  -relaxed-page-height: 3.5in;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-image: linear-gradient(to top right, black 0%, #0e0e20  100%);
+}
+.logo {
+  display: block;
+  width: 1.5in;
+  margin: 0.3in auto 0.3in;
+}
+.me {
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  line-height: 1.7em;
+  margin-left: 0.4cm;
+  .name {
+    font-weight: bold;
+  }
+  .coordinates {
+    color: #bbb;
+    margin-top: 0.5cm;
+  }
+
+}

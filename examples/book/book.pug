@@ -1,0 +1,16 @@
+#pageFooter
+
+#cover
+  h1.book-title Alice in Wonderland
+  h2.author by Lewis Caroll
+
+.chapter
+  img.title-img(src='chapter_1.jpeg')
+  include:markdown-it(html=true) chapter_1.md
+
+.chapter
+  img.title-img(src='chapter_2.jpeg')
+  include:markdown-it(html=true) chapter_2.md
+
+style
+  include:scss book.scss

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+$page_width: 4in;
+$page_height: 7in;
+
+@page {
+  size: $page_width $page_height;
+  -relaxed-page-width: $page_width;
+  -relaxed-page-height: $page_height;
+  margin: 15mm 10mm 15mm 10mm;
+}
+
+body {
+  font-family: 'Old Standard TT';
+}
+
+#cover {
+  padding-top: 40%;
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+.chapter {
+  page-break-before: always;
+  img.title-img {
+    margin-top: 0.5in;
+    height: 2in;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.6em;
+    text-align: justify;
+  }
+  .stars {
+    height: 0.08* $page_height;
+    width: 100%;
+    margin-top: 0.2in;
+    margin-bottom: 0.2in;
+    background: url('stars.png') center no-repeat;
+    background-size: contain;
+  }
+}

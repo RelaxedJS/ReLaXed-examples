@@ -1,0 +1,17 @@
+mixin item(title, place, location, from_date, to_date)
+  .blocks
+    .date
+      if from_date
+        span= from_date
+      if to_date
+        span= to_date
+    .decorator
+    .details
+      header
+        h3= title
+        if place
+          span.place= place
+        if location
+          span.location= location
+      .description
+        block
