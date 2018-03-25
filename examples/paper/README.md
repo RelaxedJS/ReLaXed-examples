@@ -2,7 +2,7 @@
 
 This directory contains a sample scientific paper edited with ReLaXed.
 
-<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/report/report_screenshot.png"/></p>
+<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/paper/paper_screenshot.png"/></p>
 
 
 Some highlights:
