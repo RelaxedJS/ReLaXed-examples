@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@page {
+  margin: 1.5cm;
+}
+
+html {
+  font-family: 'Crimson Text';
+  font-size: 12px;
+}
+
+.title {
+  font-size: 2em;
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+.authors {
+  font-size: 1.5em;
+}
+
+.abstract {
+  margin-top: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+  border-top: 1px solid #174591;;
+  border-bottom: 1px solid #174591;;
+  background-color: #eeeeff;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  p:before {
+    content: "ABSTRACT: ";
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #174591;
+  }
+}
+
+.main-text {
+  text-align: justify;
+  column-count: 2;
+  column-gap: 40px;
+
+  &> p:first-of-type:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: #174591;
+    line-height:0.91em;
+    margin-right:5px;
+    margin-left: 0;
+    float: left;
+  }
+
+  figure {
+    width: 100%;
+    &.two-columns {
+      -webkit-column-span: all;
+      column-span: all;
+    }
+    margin: 0;
+    display: block;
+    font-size: 0.8em;
+    float: left;
+    img, svg {
+      max-width: 100%;
+      height: auto;
+      margin-top: 0;
+    }
+  }
+}
+
+sup {
+  position: relative;
+  font-size: 0.6em;
+  top: -0.2em;
+  margin-left: -0.5em;
+}

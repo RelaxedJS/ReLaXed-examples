@@ -1,0 +1,133 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import 'https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister';
+@import 'https://cdn.rawgit.com/isagalaev/highlight.js/cf4b46e5/src/styles/solarized-light.css';
+
+$page_width: 8in;
+$page_height: 6in;
+$primary_color: #b17104;
+$main_img: url(https://cdn.pixabay.com/photo/2017/02/28/08/58/sunset-2105235_1280.jpg);
+
+@page {
+  size: $page_width $page_height;
+  -relaxed-page-width: $page_width;
+  -relaxed-page-height: $page_height;
+  margin: 0px 0px 0px 0px;
+}
+
+html, body {
+  font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+#title.slide {
+  background-size: cover;
+  background-position: -10px;
+  background-position: center;
+  h1 {
+    position: absolute;
+    width: 100%;
+    font-size: 2.3em;
+    font-family: 'Amatic SC';
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1em;
+    bottom: -0.3in;
+    color: #bbb;
+    g { color: #555; }
+  }
+  img.logo {
+    position: absolute;
+    width: 3in;
+    top: 0.13 * $page_height;
+    left: 0.5 * $page_width - 1.5in;
+  }
+  .title-img {
+    position:absolute;
+    width: $page_width;
+    clip: rect(0px, $page_width, 0.75 * $page_height, 0px);
+  }
+  .signature {
+    position:absolute;
+    color: #fff;
+    font-family: 'Amatic SC';
+    top: 0.7 * $page_height;
+    font-size: .7em;
+    font-weight: 800;
+    right: .1in;
+  }
+  &::after {content: ''}
+}
+
+.slide {
+  position: relative;
+  display: block;
+  width: $page_width;
+  height: $page_height;
+  border: 2px dashed grey;
+  overflow: hidden;
+  counter-increment: slide;
+  &::after {
+    content: counter(slide);
+    font-family: 'Inconsolata', sans-serif;
+    position:absolute;
+    font-size: 0.25in;
+    text-align: right;
+    bottom: 1em;
+    right: 1em;
+    color: gray;
+  }
+  &.no-number::after {
+    display: none;
+  }
+  .header {
+    margin-top: 0;
+    font-weight: normal;
+    color: white;
+    font-size: 1.35em;
+    padding: 0.2em;
+    padding-left: 0.4em;
+    font-family: 'Love Ya Like A Sister';
+    width: 100%;
+    background: $main_img;
+    background-position: -50px 29%;
+  }
+  .content {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+
+@media print {
+  .slide {
+    border: none;
+  }
+}
+
+pre {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  margin-left: 10%;
+  padding: 1em !important;
+  font-size: 0.7em;
+}
+
+ul {
+  list-style: none;
+  li {
+    &:before {
+      font-family: 'FontAwesome';
+      content: '\f0da';
+      float: left;
+      margin-left: -1em;
+      color: $primary_color;
+    }
+  }
+}
+
+@for $i from 1 to 30 {
+  .top-#{$i}mm { margin-top: #{$i}mm; }
+}

@@ -1,0 +1,64 @@
+#title.slide
+  img.title-img(src="https://cdn.pixabay.com/photo/2017/02/28/08/58/sunset-2105235_1280.jpg")
+  img.logo(src='assets/logo-white.svg')
+  h1 <g>Beautiful documents </g> <br/> using <g>web technologies</g>
+  .signature Zulko 2018
+
+.slide
+  .header ReLaXed ♥ slideshows
+  .content.top-15mm
+    :markdown-it
+    
+      Beautiful presentations, with languages you already know
+      
+      - Design your themes using (S)CSS
+      - Write the content in Pug/markdown
+      - Enjoy lightning-fast PDF conversion, on any platform.
+      
+      We will demo:
+      
+      - Custom bullet points (wait... it's this slide)
+      - Components for technical presentations
+      - Progressive slides
+
+.slide
+  .header  What about technical presentations ?
+  .content
+    p You can write equations with MathJax:
+    h4 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    p Or code snippets with Highlight.js:
+    pre.hljs
+      code
+        :highlight(lang='python')
+          def relax(n_times):
+              for i in range(100):
+                  print ("Aaah. I'm so ReLaXed.")
+    p Or even plots with Vegalite:
+    .div(style='width:600px;margin:1em auto')
+      include assets/plot.svg
+
+each step in [1, 2, 3, 4, 5]
+  .slide
+    .header  What about progressive slides ?
+    .content
+      p.
+        No problem ! This is done with Pug's native syntax, which enables
+        even more complex logics !
+      
+      p For instance this slide has steps:
+      
+      p
+        ul
+          if step >= 2
+            li Hey ! I am a paragraph appearing at step 2.
+          if step === 3
+            li Hi there ! I appears at step 3, and disappear at step 4.
+          if step >= 4
+            li Heya ! I appear at step 4
+      
+      if step >= 5
+        p That's all for the moment folks, come back later to see if there is more !
+
+style
+  include:scss slides.scss
+  

@@ -1,16 +1,32 @@
-#pageFooter
+
 
 #cover
   h1.book-title Alice in Wonderland
   h2.author by Lewis Caroll
 
 .chapter
-  img.title-img(src='chapter_1.jpeg')
+  img.title-img(src='assets/chapter_1.jpeg')
   include:markdown-it(html=true) chapter_1.md
 
 .chapter
-  img.title-img(src='chapter_2.jpeg')
+  img.title-img(src='assets/chapter_2.jpeg')
   include:markdown-it(html=true) chapter_2.md
+
+
+template.footer
+  style(type='text/css').
+    @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+    .pdfheader {
+      font-family: 'Old Standard TT';
+      font-size: 10px;
+      width: 100%;
+      text-align: center;
+    }  
+  .pdfheader #[span.pageNumber]
+
+template.header
+  //- If you have a footer, you need a header (here we leave it empty)
+  span 
 
 style
   include:scss book.scss
