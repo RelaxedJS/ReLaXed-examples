@@ -133,7 +133,7 @@ finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart,
 custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very
 soon finished it off.
 
-<div class='stars'></div>
+<img class='stars' src='assets/stars.png'></img>
 
 ‘What a curious feeling!’ said Alice; ‘I must be shutting up like a telescope.’
 
@@ -180,4 +180,4 @@ quite dull and stupid for life to go on in the common way.
 
 So she set to work, and very soon finished off the cake.
 
-<div class='stars'></div>
+<img class='stars' src='assets/stars.png'></img>

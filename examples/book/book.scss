@@ -36,12 +36,9 @@ body {
     line-height: 1.6em;
     text-align: justify;
   }
-  .stars {
-    height: 0.08* $page_height;
-    width: 100%;
-    margin-top: 0.2in;
-    margin-bottom: 0.2in;
-    background: url('assets/stars.png') center no-repeat;
-    background-size: contain;
+  img.stars {
+    width: 80%;
+    margin: 0.2in auto 0.2in 10%;
+    page-break-inside: avoid;
   }
 }
