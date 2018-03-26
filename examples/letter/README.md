@@ -2,6 +2,9 @@
 
 This directory contains a sample letter created with ReLaXed.
 
+> Master document: [``letter.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/letter/letter.pug). <br/>
+Stylesheet: [``letter.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/letter/letter.css).
+
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/letter/letter_screenshot.png"/></p>
 
 

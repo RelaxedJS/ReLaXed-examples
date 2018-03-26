@@ -1,6 +1,11 @@
 # PDF Report with ReLaXed
 
-This directory contains a sample report created with ReLaXed. While web-based resumes are increasingly popular, some employers still require a PDF document. PDF CVs can be created from Word or LaTeX templates, HTML/CSS layouts are more diverse and sometimes better looking.
+This directory contains a sample report created with ReLaXed.
+
+> Master document: [``report.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/report/report.pug). <br/>
+Stylesheet: [``report.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/report/report.css).
+
+<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/report/report_screenshot.png"/></p>
 
 Some highlights:
 

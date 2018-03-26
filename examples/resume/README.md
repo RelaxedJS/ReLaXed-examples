@@ -2,6 +2,9 @@
 
 This directory contains a sample resume edited with ReLaXed.
 
+> Master document: [``resume.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.pug). <br/>
+Stylesheet: [``resume.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.css).
+
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/resume/resume_screenshot.png"/></p>
 
 While web-based resumes are increasingly popular, some employers still require a PDF document. PDF CVs can be created from Word or LaTeX templates, HTML/CSS layouts are more diverse and sometimes better looking.

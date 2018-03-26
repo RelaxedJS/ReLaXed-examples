@@ -1,11 +1,10 @@
-# PDF Resume with Relaxed.JS (mnjul's design)
+# PDF slideshow with Relaxed.JS
 
-This directory contains a sample resume edited with ReLaXed. While web-based resumes are increasingly popular, some employers still require a PDF document. PDF CVs can be created from Word or LaTeX templates, HTML/CSS layouts are more diverse and sometimes better looking.
+This directory contains a sample slideshow edited with ReLaXed.
 
-In this example, we are converting [this project](https://github.com/mnjul/html-resume), a clean and beautiful HTML CV designed for printing by Min-Zhong "John" Lu (@mnjul on github).
+> Master document: [``slides.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/slides/slides.pug). <br/>
+Stylesheet: [``slides.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/slides/slides.css).
 
-Some highlights:
+<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/slides/slides_screenshot.png"/></p>
 
-- Since the resume is composed of *item* sections with similar structures, we define an ``item`` mixin, which makes the final source much less verbose.
-- Have a look at the SCSS file: we are stealing all the styling from the internet (Google fonts, Font-Awesome, and of course @mnjul's CSS stylesheet). We only write two lines of specific CSS to fix some glitches in Google Chrome
-- It's nice that PDFs don't carry the weight of the CSS/JS libraries they use. The end result has a super-small size (30k)
+This example and it's documentation is under construction. It's already usable, but you may come later for more features demos and documentation.
