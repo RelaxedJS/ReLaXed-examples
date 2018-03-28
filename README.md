@@ -53,3 +53,13 @@ This repository contains various examples of PDF documents written with [ReLaXed
    <td width="25%"></td>
   </tr>
 </table>
+
+## Get started
+
+First [install ReLaXed](https://github.com/RelaxedJS/ReLaXed#installing-relaxed), then clone or download this repository and start a session from the terminal by pointing ReLaXed to the master document of a project:
+
+```
+relaxed examples/report/report.pug
+```
+
+Now every time a file changes in the ``report/`` folder, a PDF document ``report.pdf`` will be generated.
