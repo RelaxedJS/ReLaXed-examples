@@ -2,7 +2,7 @@
 
 This directory contains a sample poster edited with ReLaXed.
 
-> Master document: [``report.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/poster/poster.pug). <br/>
+> Master document: [``poster.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/poster/poster.pug). <br/>
 Stylesheet: [``poster.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/poster/poster.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/poster/poster_screenshot_landscape.png"/></p>
