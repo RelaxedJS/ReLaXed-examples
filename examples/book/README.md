@@ -3,7 +3,7 @@
 This directory contains the sources of a Book written with ReLaXed.
 
 > Master document: [``book.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/book/book.pug). <br/>
-Stylesheet: [``book.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/book/book.css).
+Stylesheet: [``book.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/book/book.scss).
 
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/book/book_screenshot.png"/></p>

@@ -1,0 +1,9 @@
+start=>start: I am a starting point
+operation=>operation: I am an operation
+subroutine=>subroutine: I am a subroutine\n(click me !):>http://www.google.com
+condition=>condition: I'm a condition.\n Got it ?:>http://www.google.com
+io=>inputoutput: I indicate data\ninput or output
+end=>end: I am an endpoint
+
+start->operation->subroutine->condition(yes)->end
+condition(no)->io(right)->operation

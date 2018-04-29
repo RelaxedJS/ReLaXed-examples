@@ -1,0 +1,15 @@
+#results .content {
+  margin-top: -2cm;
+  height: 28cm;
+  column-count: 4;
+  column-gap: 2cm;
+  column-fill: auto;
+  padding: 1cm;
+  padding-bottom: 0.3cm;
+  padding-top: 0.3cm;
+
+  text-align: justify;
+  &> p:first-of-type {
+    margin-top: 3cm;
+  }
+}

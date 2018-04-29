@@ -1,0 +1,64 @@
+:markdown-it
+
+  We spent a few nights putting together ReLaXed, as a proof of concept that
+  editing PDF documents using web technologies can actually be fun. For now
+  we can say for sure that ReLaXed is very nice for editing simple documents
+  like letters, and really cool for making slideshows (we are using it on
+  a daily basis). It takes more time however to make finely-crafted documents
+  but the results are generally very satifactory. Making figures by hand is quite
+  fast once we start to know the API of Chart.JS or Vegalite.
+  
+  In this section we showcase two pointless figures and a code snippet of
+  how to make slides with ReLaXed. The figures are *floating* in order to make
+  them integrate with the four-column text. It's not necessarily the best choice,
+  but again this not a real poster, more like a style exploration.
+  Note that the code is not syntax highlighted
+  as, unfortunately, the popular syntax highlighting ``highlight.js`` does not
+  support the Pug language.
+  
+  The rest of this section will be Lorem Ipsum as it is starting to be late here.
+  If you want to learn more visit our Github :) 
+
+.figure
+  img(src="./sections/diagrams/main_plot.png")
+  .caption
+    :markdown-it
+      **A Chart.JS plot.** Admitedly, there is no reason for this plot to be
+      here. As an aside, when you use ChartJS, beware that the resulting image
+      is not vectorial and will appear pixelated at high resolution (e.g. on
+      a poster. Make sure to set the chart's ``options.devicePixelRatio`` very
+      high.
+  
+  
+.figure
+  img(src="./sections/diagrams/radar.png")
+  .caption
+    :markdown-it
+      **A totally subjective comparison of the three major documents editors
+      out there.**
+
+:markdown-it
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+   qui officia deserunt mollit anim id est laborum
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+  culpa qui officia deserunt mollit anim id est laborum sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+  
+pre.hljs
+  code
+    :highlight(lang='golo')
+      .slide
+        .header I'm the title!
+        p I am a paragraph
+
+style
+  include:scss results.scss

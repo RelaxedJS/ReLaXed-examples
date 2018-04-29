@@ -1,5 +1,5 @@
 *.htm
-examples/poster
+#examples/poster
 #examples/report
 #examples/slides
 #examples/paper

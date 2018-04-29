@@ -3,7 +3,7 @@
 This directory contains a sample report created with ReLaXed.
 
 > Master document: [``report.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/report/report.pug). <br/>
-Stylesheet: [``report.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/report/report.css).
+Stylesheet: [``report.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/report/report.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/report/report_screenshot.png"/></p>
 

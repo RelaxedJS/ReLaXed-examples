@@ -3,7 +3,7 @@
 This directory contains a sample letter created with ReLaXed.
 
 > Master document: [``letter.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/letter/letter.pug). <br/>
-Stylesheet: [``letter.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/letter/letter.css).
+Stylesheet: [``letter.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/letter/letter.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/letter/letter_screenshot.png"/></p>
 

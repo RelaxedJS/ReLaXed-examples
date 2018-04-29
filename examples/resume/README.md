@@ -3,7 +3,7 @@
 This directory contains a sample resume edited with ReLaXed.
 
 > Master document: [``resume.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.pug). <br/>
-Stylesheet: [``resume.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.css).
+Stylesheet: [``resume.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/resume/resume_screenshot.png"/></p>
 

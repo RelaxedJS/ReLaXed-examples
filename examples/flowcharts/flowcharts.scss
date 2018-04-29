@@ -1,0 +1,43 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+@page {
+  margin: 1cm;
+}
+figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1cm !important;
+}
+.flowchart-svg {
+
+  display: inline-block;
+  path {
+    stroke-width: 1.5px;
+  }
+  $class-colors: (
+    start-element: #154b14,
+    end-element: #69351c,
+    operation-element: #353555,
+    condition-element: #6f6b17,
+    inputoutput-element: #355554,
+    subroutine-element: #4f3555,
+  );
+
+  @each $class, $color in $class-colors {
+    .#{$class}, rect.#{$class} + rect, a + a rect {
+      fill: lighten($color, 70%);
+      stroke: lighten($color, 10%);
+      stroke-width: 1.5px;
+
+    }
+    .#{$class}t {
+      fill: $color;
+      font-family: 'Oswald', sans-serif !important;
+    }
+  }
+  .start-element, .end-element {
+    rx: 8px;
+    ry: 8px;
+  }
+}

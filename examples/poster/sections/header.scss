@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Paytone+One';
+#header {
+  h1 {
+    margin: 0;
+    font-size: 1.5in !important;
+    font-family: "Paytone One" !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow:
+      .04em .04em 0px #cdeaf4,
+      .07em .07em 0px rgba(0, 0, 0, 0.2);
+    .using {
+        text-shadow: none;
+        font-size: 0.5em;
+        text-transform: none;
+        margin-top: -0.7em;
+        margin-bottom: -0.7em;
+    }
+  }
+
+  #abstract {
+   font-family: "Paytone One" !important;
+   width: 100%;
+   height: auto;
+   outline: 0.1in dashed #98abb9;
+   outline-offset: -0.3in;
+   background-color: #556068;
+   margin-top: 1in;
+   -webkit-box-shadow: 0.1in 0.1in 0.1in #000;
+   color: #ffffffdd;
+   text-align: justify;
+   padding: 2.3em;
+   // font-size: 2.8em;
+   p {
+     // margin-top: 0.4%;
+   }
+  }
+}

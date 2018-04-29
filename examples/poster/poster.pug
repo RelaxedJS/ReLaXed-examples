@@ -1,0 +1,51 @@
+
+#header
+  include sections/header.pug
+#about-us.ui.raised.segment
+  a.ui.red.title.ribbon.label About us
+  .content
+    include sections/about_us.pug
+
+#motivation.ui.raised.segment
+  a.ui.blue.title.ribbon.label Motivation
+  .content
+    include sections/motivation.pug
+
+#results.ui.raised.segment
+  a.ui.green.title.ribbon.label Results
+  .content
+    include sections/results.pug
+
+#methods.ui.raised.segment
+  a.ui.pink.title.ribbon.label Methods
+  .content
+    include sections/methods.pug
+
+
+#sources.ui.raised.segment
+  a.ui.yellow.title.ribbon.label Sources
+  .content
+    include sections/sources.pug
+
+style
+  include:scss poster.scss
+
+style(lang="css")
+  :scss
+    body {
+      grid-template-areas:
+        "P P H H H M M"
+        "P P H H H M M"
+        "P P U U U M M"
+        "R R R R R M M"
+        "R R R R R S S";
+      #motivation { grid-area: P; }
+      #header { grid-area: H; }
+      #results { grid-area: R; }
+      #about-us { grid-area: U; }
+      #methods { grid-area: M; }
+      #sources { grid-area: S; }
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      
+    }

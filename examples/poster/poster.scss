@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css';
+// @import 'https://cdn.rawgit.com/isagalaev/highlight.js/cf4b46e5/src/styles/solarized-light.css';
+@import 'https://cdn.rawgit.com/isagalaev/highlight.js/cf4b46e5/src/styles/monokai.css';
+// A0
+$page_width: 46.8in;
+$page_height: 33.1in;
+$margin: 1.2in;
+
+@page {
+  size: $page_width $page_height;
+  -relaxed-page-width: $page_width;
+  -relaxed-page-height: $page_height;
+}
+$background-color: #b8deeb;
+html {
+  background: lighten($background-color, 5%);
+  font-family: "PT Sans" !important;
+  width: $page_width;
+  height: 0.9999*$page_height;
+}
+body {
+  margin: 0;
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 32px !important;
+
+  display: grid;
+  grid-gap: 1.2in;
+  grid-template-columns: 60px 60px;
+  background: none;
+  padding: $margin !important;
+  // background-color: #2196F3;
+  div {
+    .title.ribbon {
+      font-size: 0.6in;
+      border-radius:  0 0.2in  0.2in 0 !important;
+      // margin-top: -1in !important;
+    }
+    .content {
+      max-width: 100%;
+    }
+  }
+  p {
+    margin-top:0.5em;
+    font-size: 32px !important;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .figure {
+    float: left;
+    break-inside: avoid;
+    img {width: 100%;}
+    .caption p {
+      font-size: 24px !important;
+      margin-top: 0.2em;
+      margin-bottom: 1.5em;
+    }
+  }
+  .card {
+    line-height: 1.3em !important;
+  }
+  pre {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    // margin-left: 5%;
+    padding: 0.8em !important;
+    font-size: 36px;
+  }
+
+  li {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,24 @@
+#about-us {
+  p {
+    float: left;
+    margin-top: 0.5in;
+    width: 22%;
+    margin-left: 1cm;
+  }
+  .members {
+    float: right;
+    .card {
+      display: inline-block;
+      height: 11cm;
+      vertical-align: top;
+      margin-right: 0.8cm;
+      margin-top: -3cm !important;
+    }
+  }
+  .disclaimer {
+    position: absolute;
+    bottom: -0.6em;
+    right: 0.6em;
+    color: #aaa;
+  }
+}

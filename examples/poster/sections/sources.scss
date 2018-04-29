@@ -1,0 +1,20 @@
+#sources {
+  .content {
+    margin-top: -2cm;
+    column-count: 2;
+    column-gap: 2cm;
+    column-fill: auto;
+    padding: 1cm;
+    padding-bottom: 0.3cm;
+    padding-top: 0.3cm;
+
+    // text-align: justify;
+    .bibitem {
+      font-size: 26px !important;
+      &:first-child {
+        margin-top: 3cm;
+      }
+      margin-bottom: 0.2cm;
+    }
+  }
+}

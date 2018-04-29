@@ -4,39 +4,75 @@
 
 .abstract
   :markdown-it(html=true)
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.<br />
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
+    Mainstream documents editor, such as MS Office or Google Docs, are often
+    shuned by the technical community in favor of mark-up languages (Markdown,
+    LaTeX, etc.), more adapted to technical writings and, more generally, to the
+    quick generation of documents with consistent style. However, these
+    languages have, in turn, limitations in their structure (title / sections /
+    paragraphs) or accessibility in the case of LaTeX. In this paper we
+    introduce a new PDF edition system ReLaXed, which takes advantage of the
+    latest web technologies to enable fast, reliable PDF generation from
+    languages such as Pug, HTML, or CSS, and relying on Google Chrome for
+    rendering. ReLaXed enables to define complex layouts with CSS and Javascript
+    while writing the content in a friendly, minimal syntax close to Markdown or
+    LaTeX. It also features support for Markdown, LaTeX-style mathematical
+    equations (via MathJax), plots generation (via Vegalite), diagram generation
+    (via Mermaid). Many more features can be added simply by importing an
+    existing Javascript of CSS framework.
 
 .main-text
   :markdown-it(html=true)
-    Through the issue of the New-York Evening post, Feb. 6, I opposed Mr. Melville’s plan of reaching the north pole <sup>1</sup> , as I could not consider the theory on which it is founded is correct. In answer to my remarks, Mr. Melville in the same paper, Feb. 17, maintains his position, and denounces his critics for hindering his endeavors, instead of *"sending him to prove his theories he has so much faith in, and permitting him to bring back the necessary facts that alone can carry conviction to the unbeliever without a theory."*   When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
-
+    
+    As of 2017, 73.5% of generated PDF documents originated from either MS
+    Office or Google Docs (Jaeger *et al*, 2014). However, studies focusing on
+    the scientific and technical community in particular have shown that this
+    number falls to 25.5%, while the share of markup languages (Markdown, LaTeX)
+    reaches to 55.2% in this group (Mikasa and Ackermann, 2011). This is
+    generally explained by the fact that markup languages are more adapted to
+    the quick writing of documents, with a focus on the content (the style of
+    the document being generally delegated to separate configuration files).
+    Markup languages are also more portable, i.e. can be written on any system
+    and any text editor, and are more adapted to technical writing, supporting
+    code snippets and mathematical equations such as this one:
+    
     $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-    He says, *"It would be more in the spirit of progress and the advancement of science, if my critics would propound new theories or other plans of progress, rather than simply find fault of say ‘I don’t believe.’”* We cannot coincide with this opinion of Mr. Melville, and claim the full right to criticise a plan of exploration before it is set in motion. What is the cause of so many failures of arctic expeditions and other undertakings? Is it the careless neglect of thorough deliberation before entering into expeditions, or is it the hostility of nature? Have we nothing to learn by the Jeannette and the Proteus?
+    
+    However, Markdown and LaTeX make it difficult to edit documents with a
+    structure differing from the standard title-sections-paragraphs
+    organization. In particular, LaTeX can be a fringing pain everytime you just
+    want to move a damn image and you can't because you don't have a PhD in
+    LaTeX and you keep getting cryptic error messages because certainly
+    somewhere a bracket is missing.
 
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
+    In this paper we introduce a new PDF edition system ReLaXed, which takes
+    advantage of the latest web technologies to enable fast, reliable PDF
+    generation from languages such as Pug, HTML, or CSS, and relying on Google
+    Chrome for rendering.
+    
+    From now on it is only placeholder text. Current CSS frameworks will make
+    sure your documents will look clean and modern. Javascript frameworks can
+    plot schemas, highlight code, or render maths equations the same way LaTeX
+    does. Millions of people (and growing) are now fluent in these technologies.
+    Shorthand languages like Pug and SCSS are finally making it fun to write
+    HTML and CSS. (Headless) web browsers can easily turn all these technologies
+    into PDF, on any platform.
+
 
   figure
     .panel
       include assets/figure1.svg
     :markdown-it
-      **Figure 1:** A vectorial 3D plot generated by Matplotlib - how cool is that really. This was the result of a random search for Matplotlib 3D plots and frankly you can still do much better, but SVGs of 3D plots tend to be
-      pretty big so at some point you gotta be like, ok that's cool, but all these bits going through the network are gonna break the internet.
+      **Figure 1:** A vectorial 3D plot generated by Matplotlib - how cool is
+      that really. This was the result of a random search for Matplotlib 3D
+      plots and frankly you can still do much better, but SVGs of 3D plots
+      tend to be pretty big so at some point you gotta be like, ok that's
+      cool, but all these bits going through the network are gonna break the
+      internet.
+      
   :markdown-it(html=true)
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
-
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
 
     If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful. If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful. If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
-
-    <figure class='two-columns' markdown="1">
-    ![](figure2.jpeg)
-    **Figure 1:** A vectorial 3D plot generated by Matplotlib - how cool is that really. This was the result of a random search for Matplotlib 3D plots and frankly you can still do much better, but SVGs of 3D plots tend to be
-    pretty big so at some point you gotta be like, ok that's cool, but all these bits going through the network are gonna break the internet.
-    </figure>
-
-    If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
 
     If we should claim at any time the right of criticism, we do it now, when the blunders and misfortunes which effected the failures of the last expeditions are deeply impressed on public minds, and nearly extinguish the little interest which is left for scientific work in the Arctic. We consider it in the spirit of progress of science, to prove the fallacy of a plan founded on theories like those of Mr. Melville, which cannot be accepted by scientific men, and must lead to disaster, or will at least be unsuccessful.
 

@@ -1,0 +1,13 @@
+st=>start: Start:>http://www.google.com[blank]
+e=>end: End:>http://www.google.com
+op1=>operation: My Operation
+op2=>operation: Stuff
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes or No?:>http://www.google.com
+c2=>condition: Good idea
+io=>inputoutput: catch something...
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e

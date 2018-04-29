@@ -3,7 +3,7 @@
 This directory contains a sample slideshow edited with ReLaXed.
 
 > Master document: [``slides.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/slides/slides.pug). <br/>
-Stylesheet: [``slides.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/slides/slides.css).
+Stylesheet: [``slides.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/slides/slides.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/slides/slides_screenshot.png"/></p>
 

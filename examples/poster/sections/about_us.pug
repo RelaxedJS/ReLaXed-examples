@@ -1,0 +1,36 @@
+p.
+  We are a highly motivated and close-knit team of one,
+  looking for other people to join the project.
+  Get in touch on Github !
+
+mixin member(name, meta, img)
+  .ui.card
+    .image
+      img(src=img, height="1cm")
+    .content
+      a.header #{name}
+      .meta
+        span.date #{meta}
+      .description
+        block
+
+.members
+  +member("Zulko", "Creator. NOT a front-end specialist", "https://semantic-ui.com/images/avatar/large/daniel.jpg")
+    | Zulko started the project after failing to change
+    | a LaTeX title slide. Now he uses ReLaXed for all his presentations.
+  +member("Peggy McPugface", "Lead dev", "https://semantic-ui.com/images/avatar2/large/kristy.png")
+    | Peggy is an imaginary ReLaXed team member who rocks at Node.js
+    | and will help the project get a proper code base.
+  +member("Essie S. Hesse", "Frontend specialist", "https://semantic-ui.com/images/avatar2/large/elyse.png")
+    | Essie is a sought-after frontend expert who will develop best practices
+    | for effortless PDF document styling with Pug/SCSS
+    
+  +member("Matteo", "Placeholder", "https://semantic-ui.com/images/avatar2/large/matthew.png")
+    | Matteo was invited to the imaginary team because we
+    | needed four team members to fill this section. We take everyone ! 
+
+.disclaimer All pictures above are from the Semantic UI docs, under the MIT licence
+//- +member("Zulko", "Creator", "https://avatars1.githubusercontent.com/u/1646122")
+
+style
+  include:scss about_us.scss

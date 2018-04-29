@@ -1,0 +1,48 @@
+mixin etal
+  em et al.
+
+mixin bibitem(ref, data)
+  .bibitem
+    b [#{ref}] 
+    | #{data.authors} 
+    | #[em #{data.title}], 
+    | #{data.url}, 
+    | #{data.year}
+    | .
+    br
+
+-
+  var bibdata = {
+    "Lukic, 2016": {
+      authors: "Lukic and contributors",
+      title: "The Semantic UI CSS framework",
+      year:2016,
+      url:"https://semantic-ui.com/"
+    },
+    "Downie, 2015": {
+      authors: "Downie and contributors",
+      title: "Chart.js, Simple, clean and engaging charts for designers and developers",
+      year:2015,
+      url:"http://www.chartjs.org/"
+    },
+    "Lushnikov, 2017": {
+      authors: "Lushnikov and contributors",
+      title: "Puppeteer, the Headless Chrome Node API",
+      year:2017,
+      url:"https://github.com/GoogleChrome"
+    },
+    "Zulko, 2018": {
+      authors: "Zulko and soon others",
+      title: "ReLaXed, Create PDF documents using web technologies ",
+      year:2018,
+      url:"https://github.com/RelaxedJS"
+    }
+  }
+  
+
+each data, ref in bibdata
+  +bibitem(ref, data)
+
+
+style
+  include:scss sources.scss
