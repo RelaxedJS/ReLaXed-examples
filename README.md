@@ -50,7 +50,12 @@ This repository contains various examples of PDF documents written with [ReLaXed
        <a href="https://github.com/RelaxedJS/ReLaXed-examples/tree/master/examples/paper/"> Source </a> /
        <a href="https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/paper/paper.pdf"> PDF </a>
      </td>
-   <td width="25%"></td>
+   <td width="25%">
+     <img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/poster/poster_screenshot.png" />
+       Poster -
+       <a href="https://github.com/RelaxedJS/ReLaXed-examples/tree/master/examples/poster/"> Source </a> /
+       <a href="https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/poster/poster.pdf"> PDF </a>
+   </td>
   </tr>
 </table>
 
