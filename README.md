@@ -1,6 +1,11 @@
 # ReLaXed examples
 
-This repository contains various examples of PDF documents written with [ReLaXed](https://github.com/RelaxedJS). It demonstrates how the Pug and SCSS languages can be advantageously used to create a wide variety of reusable document layouts while keeping a clarity of the source close to Markdown.
+This repository contains examples of PDF documents written with [ReLaXed](https://github.com/RelaxedJS) v0.1.4.
+
+It demonstrates how
+the Pug and SCSS languages can be advantageously used to create a wide variety
+of reusable document layouts while keeping a clarity of the source close to
+Markdown.
 
 <table>
   <tr align="center">
