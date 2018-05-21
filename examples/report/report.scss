@@ -52,8 +52,9 @@ $sidebar-height: 940px;
   border-left: $sidebar-width solid transparent;
   border-top: $sidebar-width solid lighten($primary_color, 10%);
   border-right: $sidebar-width solid transparent;
-  -webkit-transform-origin: 0 0;
-  transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+  -webkit-transform: rotate(-90deg);
+  z-index: -1000;
   p {
     text-align: center;
     color: lighten($primary_color, 30%);
@@ -95,9 +96,9 @@ $sidebar-height: 940px;
 
 
 figure {
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 1em;
-  padding: 1em;
+  padding: 0.5em;
   &> .panel {
     position: relative;
     display: inline-block;
@@ -118,7 +119,7 @@ figure {
     float: left;
   }
   figcaption {
-    font-size: 0.9em;
+    font-size: 0.75em;
     text-align: justify;
     width: 100%;
     margin-top: 1em;

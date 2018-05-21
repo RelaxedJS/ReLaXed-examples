@@ -55,7 +55,7 @@ p Here is another cool component provided by Semantic UI:
       | The ReLaXed homepage is at 
       a(href='https://github.com/RelaxedJS/ReLaXed') github.com/RelaxedJS/ReLaXed
 
-figure.float-left.width-7cm.ui.raised.segment
+figure.float-left.width-8cm.ui.raised.segment
   .panel
     .label A
     include diagrams/plot.svg
@@ -70,6 +70,7 @@ figure.float-left.width-7cm.ui.raised.segment
     .caption.
       This also demonstrates figure composition into panels - suck it, markdown !
       #[b A. ] Graph defined as a JSON and transformed to SVG using Vega-lite and Chrome.
+      #[b B. ] Graph generated using Mermaid and Chrome.
 
 :markdown-it(html=true)
   Next we will have a look at some differences between ReLaXed and other frameworks.
@@ -110,11 +111,7 @@ figure.float-left.width-7cm.ui.raised.segment
   faster to render big documents (not entirely sure though <i class="em
   em-thinking_face"></i>).
 
-
-template.header
-  span
-
-template.footer
+template#page-footer
   style(type='text/css').
     .pdfheader {
       font-size: 10px;

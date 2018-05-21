@@ -13,20 +13,17 @@
   include:markdown-it(html=true) chapter_2.md
 
 
-template.footer
+template#page-footer
   style(type='text/css').
-    @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
     .pdf-footer {
-      font-family: 'Old Standard TT';
+      font-family: Helvetica;
       font-size: 10px;
       width: 100%;
       text-align: center;
     }  
   .pdf-footer #[span.pageNumber]
 
-template.header
-  //- If you have a footer, you need a header (here we leave it empty)
-  span 
+
 
 style
   include:scss book.scss
