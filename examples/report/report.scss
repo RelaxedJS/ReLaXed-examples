@@ -41,20 +41,18 @@ a {
 }
 
 $sidebar-width: 0.25in;
-$sidebar-height: 940px;
+$sidebar-height: 943px;
 
 .report-sidebar {
   position: fixed;
-  width: $sidebar-height;
-  height: $sidebar-width;
-  left: 0;
-  bottom: -20px;
-  border-left: $sidebar-width solid transparent;
-  border-top: $sidebar-width solid lighten($primary_color, 10%);
-  border-right: $sidebar-width solid transparent;
-  -webkit-transform-origin: top left;
-  -webkit-transform: rotate(-90deg);
-  z-index: -1000;
+  left: -$sidebar-width;
+  top: 0;
+  width: $sidebar-width;
+  height: $sidebar-height;
+  writing-mode: vertical-rl;
+  border-top: $sidebar-width solid transparent;
+  border-left: $sidebar-width solid lighten($primary_color, 10%);
+  border-bottom: $sidebar-width solid transparent;
   p {
     text-align: center;
     color: lighten($primary_color, 30%);

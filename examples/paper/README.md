@@ -3,7 +3,7 @@
 This directory contains a sample scientific paper edited with ReLaXed.
 
 > Master document: [``paper.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/paper/paper.pug). <br/>
-Stylesheet: [``paper.css``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/paper/paper.css).
+Stylesheet: [``paper.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/paper/paper.scss).
 
 <p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/paper/paper_screenshot.png"/></p>
 
