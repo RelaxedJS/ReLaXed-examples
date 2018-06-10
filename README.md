@@ -73,3 +73,43 @@ relaxed examples/report/report.pug
 ```
 
 Now every time a file changes in the ``report/`` folder, a PDF document ``report.pdf`` will be generated.
+
+## Real-life examples
+
+Here are some examples of documents made with ReLaXed.
+If you've made nice stuff with ReLaXed, it could be added here.
+
+<table>
+  <tr align="center">
+    <td width="50%">
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/blob/master/slideshows/eastbio_dundee_2018/sample.pdf">
+        <img src="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/slideshows/eastbio_dundee_2018/talk_screenshot.jpeg" />
+      </a>
+      DNA Assembly is Not for You -
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/tree/master/slideshows/eastbio_dundee_2018/"> source </a> /
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/slideshows/eastbio_dundee_2018/sample.pdf"> PDF </a>
+    </td>
+    <td width="50%">
+         <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/blob/master/slideshows/bbsrc_skills_school_2018/sample.pdf">
+        <img src="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/slideshows/bbsrc_skills_school_2018/talk_screenshot.jpeg" />
+      </a>
+      Cloud Biology -
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/tree/master/slideshows/bbsrc_skills_school_2018/"> source </a> /
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/slideshows/bbsrc_skills_school_2018/sample.pdf"> PDF </a>
+    <td/>
+  </tr>
+</table>
+<table>
+  <tr align="center">
+    <td width="50%">
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/blob/master/courses_material/order_of_the_meo_array/sample.pdf">
+        <img src="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/courses_material/order_of_the_meo_array/screenshot.jpeg" />
+      </a>
+      The Order of the MEO Array
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/tree/master/courses_material/order_of_the_meo_array/"> source </a> /
+      <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/courses_material/order_of_the_meo_array/sample.pdf"> PDF </a>
+    </td>
+    <td width="50%">
+    <td/>
+  </tr>
+</table>
