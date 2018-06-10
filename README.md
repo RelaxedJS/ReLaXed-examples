@@ -1,6 +1,6 @@
 # ReLaXed examples
 
-This repository contains examples of PDF documents written with [ReLaXed](https://github.com/RelaxedJS) v0.1.4.
+This repository contains examples of PDF documents written with [ReLaXed](https://github.com/RelaxedJS) v0.1.8.
 
 It demonstrates how
 the Pug and SCSS languages can be advantageously used to create a wide variety
