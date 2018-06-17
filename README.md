@@ -110,6 +110,12 @@ If you've made nice stuff with ReLaXed, it could be added here.
       <a href="https://github.com/Edinburgh-Genome-Foundry/egf-shared-documents/raw/master/courses_material/order_of_the_meo_array/sample.pdf"> PDF </a>
     </td>
     <td width="50%">
+      <a href="https://github.com/ohrie/relaxed-resume/blob/master/content.pdf">
+        <img width="80%" src="https://raw.githubusercontent.com/ohrie/relaxed-resume/master/example.png" />
+      </a><br/><br/>
+      Resume
+      <a href="https://github.com/ohrie/relaxed-resume"> source </a> /
+      <a href="https://github.com/ohrie/relaxed-resume/blob/master/content.pdf"> PDF </a>
     <td/>
   </tr>
 </table>
